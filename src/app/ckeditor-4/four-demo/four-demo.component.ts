@@ -8,5 +8,5 @@ import { CKEditor4 } from 'ckeditor4-angular';
 })
 export class FourDemoComponent {
   type: CKEditor4.EditorType = CKEditor4.EditorType.INLINE;
-  editorData: any = 'Customizable tooltip';
+  editorData: any = '<p>Customizable tooltip</p>';
 }
