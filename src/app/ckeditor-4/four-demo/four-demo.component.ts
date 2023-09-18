@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { CKEditor4 } from 'ckeditor4-angular';
 
 @Component({
   selector: 'app-four-demo',
@@ -6,5 +7,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./four-demo.component.scss']
 })
 export class FourDemoComponent {
-  public editorData: any = 'Customizable tooltip';
+  type: CKEditor4.EditorType = CKEditor4.EditorType.INLINE;
+  editorData: any = 'Customizable tooltip';
 }
