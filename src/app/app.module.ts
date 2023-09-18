@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
-import { CKEditorModule as CKEditorModule4 } from 'ckeditor4-angular';
+import { CKEditor4Module } from './ckeditor-4/ckeditor-4.module';
 
 @NgModule({
   declarations: [
@@ -10,7 +10,7 @@ import { CKEditorModule as CKEditorModule4 } from 'ckeditor4-angular';
   ],
   imports: [
     BrowserModule,
-    CKEditorModule4
+    CKEditor4Module
   ],
   providers: [],
   bootstrap: [AppComponent]
