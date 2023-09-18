@@ -1,3 +1,12 @@
-<ckeditor
-    data="<p>Some initial data</p>"
-></ckeditor>
+<div class="demo">
+  <ckeditor
+    [(ngModel)]="editorData"></ckeditor>
+
+  <div class="data">
+
+    <a>Editor data: {{editorData}}</a>
+
+    <button [title]="editorData">Hover over me!</button>
+
+  </div>
+</div>

@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { FourDemoComponent } from './four-demo/four-demo.component';
 
 import { CKEditorModule } from 'ckeditor4-angular';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -13,6 +14,7 @@ import { CKEditorModule } from 'ckeditor4-angular';
   ],
   imports: [
     CommonModule,
+    FormsModule,
     CKEditorModule
   ]
 })

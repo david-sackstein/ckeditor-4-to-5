@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./four-demo.component.scss']
 })
 export class FourDemoComponent {
-
+  public editorData: any = 'Customizable tooltip';
 }
